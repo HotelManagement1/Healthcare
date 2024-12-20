@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Form</title>
+</head>
+<body>
+    <h1>Healthcare Symptom Form</h1>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="contact">Contact Number:</label><br>
+        <input type="text" id="contact" name="contact" required><br><br>
+        
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="symptom1">Symptom 1:</label>
+        <input type="text" id="symptom1" name="symptom1" required>
+
+        <label for="symptom2">Symptom 2:</label>
+        <input type="text" id="symptom2" name="symptom2" required>
+
+        <label for="symptom3">Symptom 3:</label>
+        <input type="text" id="symptom3" name="symptom3">
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
